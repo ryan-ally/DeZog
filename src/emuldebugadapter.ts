@@ -330,6 +330,13 @@ export class EmulDebugSessionClass extends DebugSession {
 	 * @param args
 	 */
 	protected async launchRequest(response: DebugProtocol.LaunchResponse, args: SettingsParameters) {
+
+		// Some error occurred
+		response.success=false;
+		response.message='Important note:\nz80-debug has been renamed to DeZog.\nPlease search the marketplace for "DeZog" to install.\nPlease also adjust your launch.json to the new parameters and consult the documentation.\ngithub is found here: https://github.com/maziac/DeZog.';
+		this.sendResponse(response);
+		return;
+
 		try {
 			// Set root path
 			Utility.setRootPath(vscode.workspace.rootPath);

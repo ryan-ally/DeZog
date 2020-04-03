@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.9.2
+- z80-debug renamed to DeZog.
+
 ## 0.9.1
 - Fixed error in unit test stack label
 
