@@ -53,7 +53,7 @@
 		"posthtml": "^0.15.1",
 		"posthtml-toc": "^1.0.3",
 		"rng": "^0.2.2",
-		"showdown": "^1.9.1",
+		"showdown": "^2.0.0",
 		"ts-node": "^8.10.2",
 		"vscode-debugadapter": "^1.43.0",
 		"vscode-debugprotocol": "1.39.0"
